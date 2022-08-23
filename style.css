@@ -1,3 +1,52 @@
+.tituloprincipal{
+	padding-left: 30px;
+}
+body{
+	background: #f3efdc;
+}
+.primerparrafo{
+	padding: 10px;
+}
+
+#banner{
+	width: 100%;
+}
+
+h2{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
 p{
 	text-align: center;
+}
+
+.bloquemisionvision{
+	background: #FFD18A;
+	padding: 10px;
+}
+
+#misionvision{
+	outline-offset: 10px;
+	font-size: 20px;
+}
+
+.objetivos{
+	background: #FFD18A;
+		
+}
+ul{
+	vertical-align: top;
+	display: inline-block;
+	width: 25%;
+	margin-left: 27%;
+}
+.items{
+	font-style: italic;
+}
+.backpack{
+	width: 10%;
 }
