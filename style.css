@@ -1,44 +1,185 @@
-.tituloprincipal{
-	padding-left: 30px;
-}
-body{
+header{
 	background: #f3efdc;
+	padding: 20px 0;
 }
-.primerparrafo{
-	padding: 10px;
+.caja{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+nav{
+	position: absolute;
+	top: 40px;
+	right: 0px;
+
+}
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+nav a{
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #C78C19;
+}
+.productos{
+	width: 940px;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+.productos li{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 20px 20px;
+	box-sizing: border-box;
+	border: 2px #000000 solid;
+	border-radius: 12px;
+}
+
+.productos li:hover{
+	border: 3px #C78C19 solid;
+}
+
+.productos li:hover h2{
+	font-size: 32px;
+}
+
+.productos li:active{
+	border: 3px #009900 solid;
+}
+
+.productos h2{
+	font-size: 30px;
+	font-weight: bold;
+}
+.productos li:hover h2{
+	font-size: 32px;
+}
+
+.productosdescripcion{
+	font-size: 20px;
+}
+.productosprecio{
+	font-weight: bold;
+	font-size: 24px;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+footer{
+	background: #000000;
+	padding: 15px;
+	text-align: center;
+}
+
+.copyright{
+	margin: 20px;
+	color: #CCCCCC;
+	font-size: 14px;
+}
+
+main{
+	width: 940px;
+	margin: 0 auto;
+}
+form{
+	margin: 40px 0;
+}
+
+form label, form legend{
+	font-size: 20px;
+	display: block;
+	margin: 0 0 12px;
+}
+.input-padron{
+	display: block;
+	margin: 0 0 10px;
+	padding: 3px 10px;
+	width: 50%;
+}
+
+.checkbox{
+	margin: 20px 0;
+}
+
+.enviar{
+	width: 30%;
+	padding: 5px;
+	font-size: 18px;
+	font-weight: bold;
+	color: whitesmoke;
+	background-color: darkorange;
+	border: none;
+	border-radius: 15px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover{
+background-color: orangered;
+transform: scale(1.08) ;
+}
+
+.enviar:active{
+background-color: orange;
+}
+table{
+	margin: 40px auto;
+}
+thead{
+	background: black;
+	color: whitesmoke;
+	font-weight: bold;
+}
+td,th{
+	border: 1px solid black;
+	padding: 5px;
 }
 
 #banner{
 	width: 100%;
 }
 
-h2{
+.titulo-principal{
 	text-align: center;
-}
-
-h3{
-	text-align: center;
-}
-
-p{
-	text-align: center;
+	padding: 10px;
+	font-size: 28px;
+	margin: 0 0 1em;
 }
 
 .bloquemisionvision{
 	background: #FFD18A;
 	padding: 10px;
 }
-
-#misionvision{
-	outline-offset: 10px;
-	font-size: 20px;
+.bloquemisionvision p{
+	text-align: center;
 }
+
+.bloquemisionvision strong{
+	font-weight: bold;
+}
+
+.bloquemisionvision em{
+	font-style: italic;
+}
+
+
 
 .objetivos{
 	background: #FFD18A;
 		
 }
-ul{
+.listaobjetivos{
 	vertical-align: top;
 	display: inline-block;
 	width: 25%;

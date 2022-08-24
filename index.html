@@ -5,39 +5,52 @@
 	<head>   	    <!-- La etiqueta head, sirve para contener las etiquetas informativas.-->
 		<meta charset="utf-8">              <!-- El meta permite charset avisa al navegador el diccionario q tiene que usar -->
 		<title>Camilla Inteligente</title>  <!-- Cambia el titulo de la página en el navegador-->
+		<link rel="stylesheet" type="text/css" href="reset.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
 
 	</head>
-
 	<body>
 
 	<header>
-		<h1 class="tituloprincipal">Camilla Inteligente</h1>
-	</header>
-	
-	<img id="banner" src="img/banner.jpg">
-
-		<div class="primerparrafo">  								<!-- Este es el cuerpo de nuestro documento (es decir el contenido)-->
-
-			<h2>Camilla inteligente es un dispositivo médico que traslada a las personas <strong>sin tocarlas</strong></h3>
+			<div class="caja">
+			<h1><img src="img/logoCI.png"></h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="productos.html">Productos</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
 		</div>
+		</header>
+	<main>
+		<img id="banner" src="img/banner.jpg">
 
-		<div class="bloquemisionvision">
-			<p><strong id="misionvision">Nuestra misión es</strong> :<br><em>Ser la <strong>opción líder en materia de traslados</strong> con nuestro innovador dispositivo, satisfaciendo las necesidades de nuestros usuarios, brindándoles un producto de alta calidad, seguro y de fácil uso.</em> </p>
+			<div class="titulo-principal">  								<!-- Este es el cuerpo de nuestro documento (es decir el contenido)-->
 
-			<p><strong id="misionvision">Nuestra visión es</strong> :<br><em>Obtener un nivel de competencia mundial</strong> del producto que ofrecemos, basándonos en el mejoramiento continuo y acorde a los requerimientos de cada ámbito donde se use <strong>CAMILLA INTELIGENTE</strong>.</em> </p>
-		</div>
+				<h2>Camilla inteligente es un dispositivo médico que traslada a las personas <strong>sin tocarlas</strong></h2>
+			</div>
 
-		<div class ="objetivos">
-			<h3 >Nuestros Principales Objetivos</h3>
-			<ul>
-				<li class="items"><strong>Dejar de usar sábanas o tablas de rescate</strong> para trasladar un ser humano.</li>
-				<li class="items"><strong>Humanizar el traslado</strong> de personas en situación de vulnerabilidad</li>
-				<li class="items"><strong>Cambiar globalmente el paradigma </strong>de los actuales métodos de traslados.</li>
-			</ul>
-			<img src="img/BackPack.jpeg" class="backpack">
-		</div>
+			<section class="bloquemisionvision">
+				<p><strong id="misionvision">Nuestra misión es</strong> :<br><em>Ser la <strong>opción líder en materia de traslados</strong> con nuestro innovador dispositivo, satisfaciendo las necesidades de nuestros usuarios, brindándoles un producto de alta calidad, seguro y de fácil uso.</em> </p>
 
-		<p>Y bueno todo tiene un <strong>fin, chau</strong></p>
+				<p><strong id="misionvision">Nuestra visión es</strong> :<br><em>Obtener un nivel de competencia mundial</strong> del producto que ofrecemos, basándonos en el mejoramiento continuo y acorde a los requerimientos de cada ámbito donde se use <strong>CAMILLA INTELIGENTE</strong>.</em> </p>
+			</section>
+
+			<section class ="objetivos">
+				<h3 >Nuestros Principales Objetivos</h3>
+				<ul class="listaobjetivos">
+					<li class="items"><strong>Dejar de usar sábanas o tablas de rescate</strong> para trasladar un ser humano.</li>
+					<li class="items"><strong>Humanizar el traslado</strong> de personas en situación de vulnerabilidad</li>
+					<li class="items"><strong>Cambiar globalmente el paradigma </strong>de los actuales métodos de traslados.</li>
+				</ul>
+				<img src="img/BackPack.jpeg" class="backpack">
+			</section>
+		</main>
+
+		<footer>
+			<img src="img/logoCI.png">
+			<p class="copyright"><em>&copy Copyright Lucas Saldaña</em></p>
+		</footer>
 	</body>
 </html>

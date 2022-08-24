@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Contacto - Camilla</title>
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>		
+
+	<body>
+		<header>
+			<div class="caja">
+			<h1><img src="img/logoCI.png" alt="Logo Camilla Inteligente"></h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="productos.html">Productos</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+		</div>
+		</header>
+		<main>
+			<form>
+				<label for="nombreapellido">Nombre y Apellido</label>
+				<input type="text" id="nombreapellido" class="input-padron" required>
+
+				<label for= "email">Correo Electrónico</label>
+				<input type="email" id="email" class="input-padron" required placeholder="correo@dominio.com">
+
+				<label for="telefono">Teléfono</label>
+				<input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+
+				
+				<label for="mensaje">Mensaje</label>
+				<textarea cols="64" rows="8" id="mensaje" class="input-padron" required placeholder="Deje su consulta o mensaje en este espacio"></textarea>
+
+				<fieldset class="Radio-contacto">
+					<legend>Como le gustaria que lo contacten?</legend>
+
+					<label for="radio-email"><input type="radio" name="contacto" id="radio-email" value="E-mail">Email</label>
+					
+
+					<label for="radio-telefono"><input type="radio" name="contacto" id="radio-telefono" value="Telefono">Telefono</label>
+					
+
+					<label for="radio-wapp"><input type="radio" name="contacto" id="radio-wapp" value="Whatsapp" checked>Whatsapp</label>
+					
+
+				</fieldset>
+				<fieldset>
+					<select>
+					<legend>En que horario prefiere ser contactado?</legend>
+						<option>Mañana</option>
+						<option>Tarde</option>
+						<option>Noche</option>
+					</select>
+				</fieldset>
+				<label class ="checkbox"><input type="checkbox" checked> Le gustaría recibir novedades?</label>
+
+				<input type="submit" value ="Enviar formulario" class="enviar">
+
+				<table>
+					<thead>
+						<tr>
+							<th>Lunes</th>
+							<th>Martes</th>
+							<th>Miercoles</th>
+							<th>Jueves</th>
+							<th>Viernes</th>
+							<th>Sabado</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>10-18 hs</td>
+							<td>10-18 hs</td>
+							<td>10-18 hs</td>
+							<td>10-18 hs</td>
+							<td>10-18 hs</td>
+							<td>10-13 hs</td>
+						</tr>
+					</tbody>
+				</table>
+
+			</form>
+		</main>
+		<footer>
+			<img src="img/logoCI.png" alt="Logo Camilla Inteligente">
+			<p class="copyright"><em>&copy Copyright Lucas Saldaña</em></p>
+		</footer>		
+	</body>
+</html>
