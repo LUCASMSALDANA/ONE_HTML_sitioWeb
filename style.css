@@ -149,19 +149,22 @@ td,th{
 #banner{
 	width: 100%;
 }
-
+.home{
+	width: 100%;
+}
 .titulo-principal{
 	text-align: center;
 	padding: 10px;
 	font-size: 28px;
 	margin: 0 0 1em;
+	clear: left;
 }
 
 .bloquemisionvision{
 	background: #FFD18A;
 	padding: 10px;
 }
-.bloquemisionvision p{
+.bloquemisionvision p,h3{
 	text-align: center;
 }
 
@@ -172,22 +175,12 @@ td,th{
 .bloquemisionvision em{
 	font-style: italic;
 }
-
-
-
-.objetivos{
-	background: #FFD18A;
-		
-}
+  	
 .listaobjetivos{
-	vertical-align: top;
 	display: inline-block;
-	width: 25%;
-	margin-left: 27%;
 }
-.items{
-	font-style: italic;
-}
+
 .backpack{
 	width: 10%;
+	float: left;
 }
